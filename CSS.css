@@ -17,6 +17,8 @@
   clear: both;
 }
 
+h2.double {border-style: double;}
+
 /* Responsive layout - makes the two columns stack on side of each other and third on below of them instead of next to each other */
 @media screen and (max-width: 991px) {
   .column {
