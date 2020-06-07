@@ -3,56 +3,22 @@
 <head>
 <title> Module 2 Coding Assingment </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the two columns stack on side of each other and third on below of them instead of next to each other */
-@media screen and (max-width: 991px) {
-  .column {
-    width: 66.6%;
-  }
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 767px) {
-  .column {
-    width: 100%;
-  }
-}
-
-</style>
+<link rel="stylesheet" type="text/css" href="CSS.css">
 </head>
 <body>
 
 <h2><center>Responsive Three Column Layout</center></h2>
 <div class="row">
   <div class="column" style="background-color:red;">
-    <h2>Column 1</h2>
+    <h2 style="text-align:right;">Column 1</h2>
     <p>This is our 1st Column</p>
   </div>
   <div class="column" style="background-color:blue;">
-    <h2>Column 2</h2>
+    <h2 style="text-align:right;">Column 2</h2>
     <p>This is our 2nd Column</p>
   </div>
   <div class="column" style="background-color:green;">
-    <h2>Column 3</h2>
+    <h2 style="text-align:right;">Column 3</h2>
     <p>This is our 3rd Column</p>
   </div>
 </div>
